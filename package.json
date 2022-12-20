@@ -1,0 +1,25 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.2.0",
+    "canvas": "^2.8.0",
+    "circle-image": "^1.0.43",
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "image-downloader": "^4.3.0",
+    "images": "^3.2.4",
+    "request": "^2.88.2",
+    "twitter-api-v2": "^1.12.10"
+  }
+}
