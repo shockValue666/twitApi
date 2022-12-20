@@ -5,7 +5,15 @@ const { createClient } = require('@supabase/supabase-js')
 const download = require('image-downloader');
 
 const CronJob = require("cron").CronJob;
+const express = require("express")
 
+
+const app = express()
+const port = process.env.PORT || 4000;
+
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`)
+})
 
 
 async function downloadImage(url, filepath) {
