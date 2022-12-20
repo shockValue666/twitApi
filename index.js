@@ -110,7 +110,8 @@ const downloadTheImagesOfAccounts = async (picAndName) =>{
 
     for(data of picAndName){
         console.log("pic: ",data.pic);
-        await downloadImage(data.pic,`/Users/michalislazaris/Desktop/twitterBot/images/${data.name}.jpg`)
+        // await downloadImage(data.pic,`/Users/michalislazaris/Desktop/twitterBot/images/${data.name}.jpg`)
+        await downloadImage(data.pic,`${__dirname}/images/${data.name}.jpg`)
         console.log("name: ",data.name)
     }
 }
